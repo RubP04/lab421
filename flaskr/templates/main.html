@@ -27,9 +27,11 @@
 
     <!-- The below tag is using Bulma CSS. Try replacing line 30 with line 29. -->
     <!-- <div class="content"> -->
-    <div>
-        {% block content %}{{ page_content }}{% endblock %}
+    <div class="content">
+        {% block content %}<h1>{{ page_content }}</h1>{% endblock %}
     </div>
+
+    <p>This is a test paragraph</p>
 
 </body>
 
